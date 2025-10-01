@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ab Company - Web3 & Blockchain</title>
+<link rel="stylesheet" href="Styles.css" />
+</head>
+<body>
+<!-- Encabezado con logo que funciona como botón -->
+<header>
+    <div class="logo-container">
+        <img src="https://bafybeidmi2jfwu5emh4aaqnsza2utax372hg7c6w7dnqboeyyczsaoiuxu.ipfs.dweb.link?filename=Logo.jpeg" alt="Logo de ab Company" class="logo" id="logoLogin" />
+       <emt> <h1>Ab Company</h1></emet>   <h1>Bienvenidos</h1> <p>Innovamos en Web3 y Blockchain para un futuro descentralizado.</p>
+    </div>
+</header>
+
+<section id="presentacion" class="portada">
+
+    <!-- Imagen que funciona como botón a Opensea -->
+    <a href="https://opensea.io/es/Ab_Company" target="_blank">
+        <img src="https://bafybeiboqxwhxrkff2ejdqufioj6gfuwtlumm5bsgd6x5rkq5wptpcavkm.ipfs.dweb.link?filename=Opensealog.svg" alt="Ver en Opensea" class="opensea-button"/>
+      </a>
+</section>
+<!-- Sección de login (oculta por defecto) -->
+<section id="login-section" class="hidden">
+    <h2>Iniciar Sesión</h2>
+    <form id="loginForm">
+        <label for="username">Usuario:</label>
+        <input type="text" id="username" required />
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" required />
+        <button type="submit">Ingresar</button>
+    </form>
+    <p id="loginMessage"></p>
+</section>
+
+<!-- Sección de gestión (solo visible tras login) -->
+<section id="menu-area" class="hidden">
+    <h2>Panel de Control</h2>
+    <div class="menu-buttons">
+        <button id="gestorArchivos">Gestor de archivos</button>
+        <button id="adminWeb">Administrador de páginas</button>
+        <button id="cerrarSesion">Cerrar sesión</button>
+    </div>
+    <!-- Paneles de funciones -->
+ <div id="panel-gestor" class="hidden">
+    <h3>Gestor de archivos</h3>
+    <p>Sube y Gestiona tus Archivos</p>
+    <!--Formulario para subir archivos-->
+    <div class="upload-container">
+        <input type="file" id="fileinput" multiple/>
+        <button id="uploadButton">Subir Archivoas</button>
+    </div>
+    <!--Lista de archivos subidos-->
+    <h4>Mis Archivos</h4>
+    <ui id="filelist"></ui>
+    </div>
+    <div id="panel-web" class="hidden">
+        <h3>Administrador de páginas web</h3>
+        <p>Funciones para administrar páginas web aquí.</p>
+    </div>
+</section>
+
+<!-- Pie de página -->
+<footer>
+    <p>&copy; 2024 ab Company. Todos los derechos reservados.</p>
+</footer>
+
+<script src="https://bafybeifsws57r4nu2opqkj42maufjdipevwjt4w6l3pskj2r7gtzdu72u4.ipfs.dweb.link?filename=Script.js"></script>
+</body>
+</html>
