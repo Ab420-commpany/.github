@@ -43,10 +43,7 @@ Creemos en el poder de la comunidad. Nuestro programa de becas (delegación de A
 
 Nuestra misión es democratizar el acceso a la economía Web3, creando oportunidades tangibles a través de los NFTs y los juegos *Play-to-Earn*. Buscamos construir una comunidad sólida, rentable y educada en el espacio blockchain.
 
-La revolución Web3 se construye en comunidad. Síguenos para enterarte de las últimas noticias, nuevas becas y oportunidades de inversión.
-* **Sitio Web:** https://ipfs.io/ipns/k51qzi5uqu5dlzcfppcrtslrbbix3mbbm3oprv9x4b8huoszva1wrjko08dlfn
-
----
+La revolución Web3 se construye en comunidad. Síguenos para enterarte de las últimas noticias, nuevas becas y oportunidades de inversión.--
 
 **Descargo de Responsabilidad:** La inversión en criptomonedas y NFTs es volátil y conlleva un riesgo financiero significativo. Por favor, realiza tu propia investigación (DYOR) antes de tomar cualquier decisión de inversión. Ab Company no se hace responsable por pérdidas financieras.
 
